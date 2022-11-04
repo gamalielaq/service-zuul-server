@@ -13,6 +13,8 @@ import com.netflix.zuul.exception.ZuulException;
 @Component
 public class PreTiempoTranscurridoFilter extends ZuulFilter {
 
+    //Filtros son para implemetar alguna tarea antes o despues
+    
 	private static Logger log = LoggerFactory.getLogger(PreTiempoTranscurridoFilter.class);
 	
 	@Override
